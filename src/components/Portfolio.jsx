@@ -12,37 +12,37 @@ const Portfolio = () => {
       id: 1,
       src: api,
       link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      repo: 'https://github.com/'
     },
     {
       id: 2,
       src: webpostman,
       link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      repo: 'https://github.com/'
     },
     {
       id: 3,
       src: apod,
       link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      repo: 'https://github.com/'
     },
     {
       id: 4,
       src: waveportal,
       link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
+      repo: 'https://github.com/'
     },
     {
       id: 5,
       src: nftportal,
       link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
+      repo: 'https://github.com/'
     },
     {
       id: 6,
       src: iptracker,
       link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
+      repo: 'https://github.com/'
     },
   ];
 
@@ -65,6 +65,8 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt="projects"
+                height={150}
+                width={80}
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
